@@ -1,0 +1,23 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "Scan for BLE devices",
+  "main": "scanner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BLE",
+    "Noble"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eddystone-beacon-scanner": "^3.0.0",
+    "eddystone-url-encoding": "^1.0.1",
+    "events": "^1.1.1",
+    "my-eddystone-beacon-scanner": "file:my-eddystone-beacon-scanner",
+    "noble": "^1.6.0",
+    "util": "^0.10.3"
+  }
+}

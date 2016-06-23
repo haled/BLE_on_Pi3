@@ -1,0 +1,24 @@
+{
+  "name": "my-eddystone-beacon-scanner",
+  "version": "3.0.3",
+  "description": "Scan for Eddystone beacon's using Node.js",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+  },
+  "keywords": [
+    "Eddystone",
+    "Beacon",
+    "Physical Web"
+  ],
+  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "noble": "^1.1.0",
+    "eddystone-url-encoding": "^1.0.0"
+  }
+}
