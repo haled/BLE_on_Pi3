@@ -7,7 +7,9 @@ module.exports = function(serverIp, serverPort) {
     });
 
     var currentDate = new Date();
-    response.end('Hola beacon receiver.\nThe current date is: ' + currentDate);
+    var htmlData = '<html><head><meta name="description" content="Darren Node Server"><title>Node Server</title></head><body>Hello HackEdu attendees</body></html>';
+    //response.end('Hola beacon receiver.\nThe current date is: ' + currentDate);
+    response.send(htmlData);
     console.log('Request handled.');
   }
 

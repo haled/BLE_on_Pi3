@@ -32,6 +32,7 @@ determineIpAddress();
 
 var serverPort = 80;
 var urlToBeacon = 'http://' + serverIp + ':' + serverPort;
+//var urlToBeacon = 'http://bit.ly/28UKqnJ';
 
 var server = require('./server.js')(serverIp, serverPort);
 
